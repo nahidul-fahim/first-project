@@ -114,11 +114,16 @@ main {
     margin: 130px 0;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 8%;
 }
 
 .activity-left-side {
-    background-color: rgba(241, 91, 34, 0.20);
+    width: 46%
+}
+
+.activity-left-side img {
+    width: 600px;
+    height: 600px;
 }
 
 .activity-right-side {
@@ -126,6 +131,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 46%;
 
 }
 
@@ -321,8 +327,8 @@ main {
 }
 
 .footer-right-container input[type=email] {
-    width: 325px;
-    height: 40px;
+    width: 300px;
+    height: 25px;
     padding: 20px;
     background-color: black;
     border: 1px solid white;
