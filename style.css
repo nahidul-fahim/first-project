@@ -4,6 +4,10 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    ::selection {
+        color:white;
+        background-color:#F15B22;
+    }
 }
 
 * {
@@ -125,9 +129,7 @@ main {
 
 }
 
-.activity-right-side h2,
-p,
-ul {
+.activity-right-side h2, p, ul {
     margin: 0 0 20px 0;
 }
 
