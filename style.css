@@ -29,7 +29,7 @@ body {
     color: #F15B22;
     width: 160px;
     height: 64px;
-    border: 1px solid #F15B22;
+    border: 0;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
@@ -229,6 +229,104 @@ ul {
 }
 
 
-/* FOOTER STYLE */ 
+/* FOOTER STYLE */
 
+.footer-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151414;
+}
 
+.footer-container {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 0;
+    gap: 20px;
+}
+
+.footer-left-container {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-right-container {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 250px;
+}
+
+.footer-left-container * {
+    margin-bottom: 20px;
+}
+
+.footer-first-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-left-container p {
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-left-container ul li {
+    color:white;
+    list-style: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-left-container img {
+    width: 45px;
+    height: 45px;
+}
+
+.footer-second-title {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-right-container * {
+    margin-bottom: 20px;
+}
+
+.footer-right-container input[type=email] {
+    width: 325px;
+    height: 40px;
+    padding: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 25px;
+}
