@@ -24,6 +24,19 @@ body {
     box-shadow: 0 0 20px #fd8150;
 }
 
+.btn-secondary {
+    background-color: #ffffff;
+    color: #F15B22;
+    width: 160px;
+    height: 64px;
+    border: 1px solid #F15B22;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    box-shadow: 0 0 20px #fd8150;
+}
+
 .section-title {
     color: #151414;
     font-size: 40px;
@@ -192,4 +205,30 @@ ul {
 
 
 /* BACKGROUND OVERLAY SECTION STYLE */
+
+.background-design {
+    margin: 0 0 130px 0;
+    width: 1140px;
+    height: 300px;
+    background: url('./images/gradient2.png') left center no-repeat, url('./images/watch.png') right center no-repeat;
+}
+
+.background-desc-container {
+    display: flex;
+    flex-direction: column;
+    padding: 55px 60px;
+}
+
+.background-desc-container * {
+    margin-bottom: 20px;
+}
+
+.background-desc-container h2 {
+    color: white;
+    max-width: 450px;
+}
+
+
+/* FOOTER STYLE */ 
+
 
